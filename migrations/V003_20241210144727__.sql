@@ -1,0 +1,1 @@
+drop table common.a_test;
