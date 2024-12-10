@@ -1,0 +1,23 @@
+databaseType = "MySql"
+id = "cf071685-3a57-40d5-8482-a188cdf81af5"
+name = "test"
+
+[flyway]
+locations = [ "filesystem:migrations" ]
+mixed = true
+outOfOrder = true
+schemaModelLocation = "schema-model"
+validateMigrationNaming = true
+
+[flyway.check]
+majorTolerance = 0
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[redgateCompare.mysql.options.ignores]
+ignoreNewlinesInTextObjects = "off"
