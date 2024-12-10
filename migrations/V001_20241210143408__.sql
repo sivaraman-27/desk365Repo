@@ -1,0 +1,1 @@
+create table common.a_test (id bigint);
