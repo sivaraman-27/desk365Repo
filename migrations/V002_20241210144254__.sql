@@ -1,0 +1,1 @@
+alter table common.a_test add column name varchar(50);
